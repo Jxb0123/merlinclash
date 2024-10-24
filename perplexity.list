@@ -1,0 +1,15 @@
+DOMAIN,api.perplexity.ai
+DOMAIN,labs.perplexity.ai
+DOMAIN,docs.perplexity.ai
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,cdn.perplexity.ai
+DOMAIN-SUFFIX,cdn.oaistatic.com
+DOMAIN-SUFFIX,fonts.googleapis.com
+DOMAIN-SUFFIX,ipapi.co
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,cloudflareinsights.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,stripe.network
+DOMAIN-SUFFIX,arkoselabs.com
+DOMAIN-SUFFIX,pximg.net
