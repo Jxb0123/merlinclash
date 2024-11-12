@@ -1,15 +1,28 @@
-DOMAIN,api.perplexity.ai
-DOMAIN,labs.perplexity.ai
-DOMAIN,docs.perplexity.ai
-DOMAIN-SUFFIX,perplexity.ai
-DOMAIN-SUFFIX,cdn.perplexity.ai
-DOMAIN-SUFFIX,cdn.oaistatic.com
-DOMAIN-SUFFIX,fonts.googleapis.com
-DOMAIN-SUFFIX,ipapi.co
-DOMAIN-SUFFIX,cloudflare.com
-DOMAIN-SUFFIX,cloudflareinsights.com
-DOMAIN-SUFFIX,oaiusercontent.com
-DOMAIN-SUFFIX,stripe.com
-DOMAIN-SUFFIX,stripe.network
-DOMAIN-SUFFIX,arkoselabs.com
-DOMAIN-SUFFIX,pximg.net
+# Perplexity.ai Rules for Loon
+# Update: 2024-11
+# Usage: 将以下规则放入 Loon 的配置文件中，PROXY 请改为你自己的代理策略组名称
+
+DOMAIN-SUFFIX,perplexity.ai,PROXY
+DOMAIN,api.perplexity.ai,PROXY
+DOMAIN-SUFFIX,perplexity.com,PROXY
+DOMAIN-SUFFIX,perplexity.org,PROXY
+DOMAIN-SUFFIX,pproxy.link,PROXY
+DOMAIN-KEYWORD,perplexity,PROXY
+
+# API Endpoints
+DOMAIN-SUFFIX,api.perplexityai.workers.dev,PROXY
+DOMAIN-SUFFIX,collections.perplexity.ai,PROXY
+DOMAIN-SUFFIX,search.perplexity.ai,PROXY
+DOMAIN-SUFFIX,labs.perplexity.ai,PROXY
+DOMAIN-SUFFIX,accounts.perplexity.ai,PROXY
+DOMAIN-SUFFIX,auth.perplexity.ai,PROXY
+
+# CDN & Assets
+DOMAIN-SUFFIX,cdn.perplexity.ai,PROXY
+DOMAIN-SUFFIX,assets.perplexity.ai,PROXY
+DOMAIN-SUFFIX,files.perplexity.ai,PROXY
+DOMAIN-SUFFIX,images.perplexity.ai,PROXY
+
+# Web Sockets
+DOMAIN-SUFFIX,ws.perplexity.ai,PROXY
+DOMAIN-SUFFIX,wss.perplexity.ai,PROXY
